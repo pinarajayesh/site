@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinara Enterprice</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100">
+  <header class="bg-blue-500 text-white">
+    <div class="container mx-auto py-4">
+      <nav class="flex items-center justify-between">
+        <div class="brand">
+          <h1 class="text-2xl font-bold">Pinara Enterprise</h1>
+        </div>
+        <div class="menu">
+          <ul class="flex space-x-2">
+            <li class="rounded-lg px-3 py-1 font-semibold transition duration-300 hover:bg-gray-200 hover:text-black"><a href="#services" class="text-lg">Services</a></li>
+            <li class="rounded-lg px-3 py-1 font-semibold transition duration-300 hover:bg-gray-200 hover:text-black"><a href="#about" class="text-lg">About</a></li>
+            <li class="rounded-lg px-3 py-1 font-semibold transition duration-300 hover:bg-gray-200 hover:text-black"><a href="#contact" class="text-lg">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+      
+      
+
+  <div class="relative h-screen w-full">
+    <div class="swiper-container h-full">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide flex items-center justify-center relative">
+                <img src="service1.jpg" alt="Image 1" class="w-full h-full object-cover">
+                <div class="absolute text-center text-white z-10 blur-glass md:w-1/2 p-10 shadow-lg rounded-3xl left-0 bottom-0 m-20">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Industrial electrical service</h1>
+                    <p class="text-2xl md:text-3xl lg:text-3xl">We specialize in streamlined electrical installation, automation, and maintenance services for diverse industries, optimizing power systems for efficiency and energy savings.</p>
+                </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="swiper-slide flex items-center justify-center relative">
+                <img src="service2.webp" alt="Image 2" class="w-full h-full object-cover">
+                <div class="absolute text-center text-white z-10 blur-glass md:w-1/2 p-10 shadow-lg rounded-3xl left-0 bottom-0 m-20">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">CCTV installation & repairs</h1>
+                    <p class="text-2xl md:text-3xl lg:text-3xl">With 15 years of experience, we specialize in top-notch CCTV installation, emphasizing flawless wiring and careful configuration for exceptional results and the utmost security.</p>
+                </div>
+            </div>
+  
+            <!-- Slide 3 -->
+            <div class="swiper-slide flex items-center justify-center relative">
+              <img src="service3.jpg" alt="Image 2" class="w-full h-full object-cover">
+              <div class="absolute text-center text-white z-10 blur-glass md:w-1/2 p-10 shadow-lg rounded-3xl left-0 bottom-0 m-20">
+                  <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Satellite dish installation & repairs</h1>
+                  <p class="text-2xl md:text-3xl lg:text-3xl">With years of expertise, we swiftly troubleshoot and repair satellite dish issues, ensuring top-notch service for uninterrupted television connectivity.</p>
+              </div>
+            </div>
+
+            <!-- Add more slides as needed -->
+
+        </div>
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-next">
+            <svg fill="#ffffff" height="50" viewBox="0 0 24 24" width="50" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0V0z" fill="none" />
+                <path d="M8.71 15.29l5.3-5.3a.996.996 0 0 1 1.41 0c.39.39.39 1.02 0 1.41l-6 6a.996.996 0 0 1-1.41 0l-6-6a.996.996 0 1 1 1.41-1.41l5.3 5.3z" />
+            </svg>
+        </div>
+        <div class="swiper-button-prev">
+            <svg fill="#ffffff" height="50" viewBox="0 0 24 24" width="50" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0V0z" fill="none" />
+                <path d="M15.29 8.71l-5.3 5.3a.996.996 0 0 1-1.41 0c-.39-.39-.39-1.02 0-1.41l6-6a.996.996 0 0 1 1.41 0l6 6a.996.996 0 1 1-1.41 1.41l-5.3-5.3z" />
+            </svg>
+        </div>
+    </div>
+</div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        autoplay: {
+            delay: 5000,
+        },
+        loop: true,
+    });
+</script>
+
+        
+</body>
+</html>
