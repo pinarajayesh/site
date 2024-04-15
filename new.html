@@ -4,23 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pinara Enterprice</title>
+    <title>Pinara Enterprise</title>
     <!-- Include Tailwind CSS -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- Facebook Open Graph -->
+    <meta property="og:url" content="https://example.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Pinara Enterprise">
+    <meta property="og:description" content="Page Description">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pinara Enterpris   e">
+    <meta name="twitter:description" content="Page Description">
+    <meta name="twitter:image" content="https://example.com/image.jpg">
+
+    <!-- LinkedIn -->
+    <meta property="og:title" content="Pinara Enterprise">
+    <meta property="og:description" content="Page Description">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:url" content="https://example.com">
+
+    <!-- Pinterest -->
+    <meta name="pinterest-rich-pin" content="true">
+    <meta property="og:image" content="https://example.com/image.jpg">
+
+    <!-- Others -->
+    <meta name="description" content="Page Description">
+    <meta itemprop="name" content="Page Title">
+    <meta itemprop="description" content="Page Description">
+    <meta itemprop="image" content="https://example.com/image.jpg">
+
+    <link class="icon" rel="icon" type="image/png" href="pe-icon.png">
+
 
 </head>
 
 <body>
 
     <!-- Header -->
-    <header class="bg-gray-900 text-white py-5">
+    <header class="bg-white text-gray-900">
         <div class="container mx-auto flex justify-between items-center">
             <!-- Logo -->
             <div class="flex items-center">
-                <!-- <img src="logo.png" alt="Logo" class="h-8 mr-4"> -->
-                <h1 class="text-lg font-semibold">Pinara Enterprice</h1>
+                <img src="pe-logo.png" alt="Logo" class="h-20 mr-4">
+                <h1 class="text-2xl font-semibold">Pinara Enterprise</h1>
             </div>
             <!-- Menu -->
             <nav>
@@ -97,7 +131,7 @@
                 </div>
                 <!-- Team Member 2 -->
                 <div class="p-4 bg-white shadow-md md:rounded-2xl text-center bg-opacity-50" style="backdrop-filter: blur(10px);">
-                    <img src="shailesh.png" alt="Shailesh" class="rounded-full w-24 h-24 mx-auto mb-4">
+                    <img src="shailesh.png" alt="Shailesh" class="rounded-full w-24 h-24 mx-auto mb-4 bg-white">
                     <h3 class="text-lg font-semibold mb-2">Shailesh</h3>
                     <p class="text-gray-700">Skilled, reliable, detail-oriented, analytical, adaptable, problem-solving, professional, efficient, safety-conscious, customer-focused.</p>
                 </div>
@@ -139,24 +173,27 @@
     </section>
 
     <!-- Contact -->
-    <section class="bg-gray-900 text-white py-8 md:py-20 bg-cover bg-center bg-no-repeat" style="background-image: url('/shake-hands.jpg');" id="contact">
+    <section class="bg-gray-900 text-black py-8 md:py-20 bg-cover bg-center bg-no-repeat" style="background-image: url('/shake-hands.jpg');" id="contact">
         <div class="container mx-auto">
             <!-- <h2 class="text-3xl font-semibold mb-6">Our Achievements</h2> -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="rounded-2xl flex justify-center md:justify-start">
+                    <img class="shadow-md h-56 rounded-2xl bg-opacity-50" src="pe-logo.png" alt="Pinara Enterprise logo">
+                </div>
                 <div></div>
-                <div></div>
-                <div class="p-4 bg-gray-900 bg-opacity-50 shadow-md rounded-2xl" style="backdrop-filter: blur(10px);">
+                <div class="p-4 bg-white bg-opacity-50 shadow-md rounded-2xl whitespace-normal" style="backdrop-filter: blur(10px);">
                     <h2 class="text-2xl font-semibold mb-4">Contact Us</h2>
-                    <p class="mb-2">123 Main Street, City, Country</p>
-                    <p class="mb-2">Phone: +1 234 567 890</p>
-                    <p class="mb-2">Email: info@example.com</p>
+                    <p>73/B, Lions Nagar, b/h Perfect Glaze Ltd, </p>
+                    <p class="mb-4">Madhapar Navavas, Madhapar - 370020</p>
+                    <p class="mb-4">Phone: <a class="text-blue-700" href="tel:+918128323855">+91 812 832 3855</a></p>
+                    <p class="mb-4">Email: <a class="text-blue-700" href="mailto:contact@pinara.in">contact@pinara.in</a></p>
                 </div>
             </div>
         </div>
     </section>
 
     <footer class="bg-black text-gray-300 text-center p-5">
-        Make in India with 🩶 
+        Made in India with 🩶 By &nbsp;<a class="text-blue-400" href="https://bansari.tech">Bansari Tech</a>
     </footer>
 
     <!-- Swiper JS -->
