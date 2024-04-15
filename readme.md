@@ -1,7 +1,3 @@
 # Pinara Enterprise
 
-This is public website to showcase my work
-
-[Link old](https://pinarajayesh.github.io/site/)
-
-[Under development](https://pinarajayesh.github.io/site/index2.html)
+This is old repo, we are maintaining this on different forked repo ([bansaritech/pinara-enterprise](https://github.com/bansaritech/pinara-enterprise))
